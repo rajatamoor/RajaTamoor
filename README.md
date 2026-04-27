@@ -1,8 +1,4 @@
 ## Hi there 👋
-
-<!--
-**rajatamoor/RajaTamoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
 # Hi 👋 I'm Tamoor
 
 ## 🚀 About Me
@@ -16,3 +12,8 @@
 ## 📊 GitHub Stats
 ![stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME)
 -->
+
+<!--
+**rajatamoor/RajaTamoor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+
