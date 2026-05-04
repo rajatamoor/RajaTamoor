@@ -1,7 +1,13 @@
-<!-- Tamoor Azam — profile README (GitHub-safe HTML + Markdown) -->
+<!-- Tamoor Azam — GitHub profile README (landing-style layout) -->
 
 <div align="center">
-  <img src="./assets/hero.png" width="100%" alt="Tamoor Azam — full-stack developer" />
+  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%2F%20Remote-1E1E2E?style=for-the-badge&logo=briefcase&logoColor=F59E0B&labelColor=11111b" alt="Open to freelance and remote" />
+</div>
+
+<br />
+
+<div align="center">
+  <img src="./assets/hero.png" width="100%" alt="Profile hero — Tamoor Azam, full-stack .NET developer" />
 </div>
 
 <br />
@@ -10,13 +16,32 @@
 
 # Tamoor Azam
 
-### Full-Stack .NET Developer
+### FULL-STACK .NET DEVELOPER
 
-<sub>Clean code · Secure · Scalable · High performance</sub>
+<sub>Building scalable web applications that solve real-world problems</sub>
 
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=500&size=20&duration=4500&pause=1400&center=true&vCenter=true&multiline=false&width=820&lines=Building+scalable+web+applications+that+solve+real-world+problems;From+databases+to+dashboards%E2%80%94one+consistent+delivery" alt="Typing tagline" />
+<sub>🚀 Clean Code · 🛡️ Secure · 📈 Scalable · ⚡ High Performance</sub>
+
+<br />
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&weight=500&size=19&duration=4800&pause=1600&center=true&vCenter=true&multiline=false&width=820&lines=Building+scalable+web+applications+that+solve+real-world+business+problems;.NET+%E2%80%A2+Blazor+%E2%80%A2+ASP.NET+Core+%E2%80%A2+SQL+Server;Secure+systems+with+clear+roles+and+measurable+impact" alt="Typing highlight" />
+
+<br />
+
+| Projects | Experience | Clients | Activity |
+| :------: | :--------: | :-----: | :------: |
+| **10+** | **2+ yrs** | **20+** | **500+ commits** |
+
+<sub><em>Highlights reflect shipped work and ongoing freelance delivery.</em></sub>
+
+<br />
+
+[<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="28" />](https://github.com/rajatamoor)
+[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="28" />](https://www.linkedin.com/in/raja-tamoor-25b842262/)
+[<img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" height="28" />](mailto:tamoorazam2003@gmail.com)
+[<img src="https://img.shields.io/badge/Upwork-6FDA44?style=flat&logo=upwork&logoColor=white" height="28" />](https://www.upwork.com/freelancers/~01b2d75ae98acbda8d?viewMode=1)
 
 </div>
 
@@ -24,25 +49,27 @@
 
 ---
 
-## About
+## About me
 
 <table>
 <tr>
-<td width="42%" valign="top" align="center">
+<td width="40%" valign="top" align="center">
 
 <img src="./assets/about.png" width="100%" alt="About — developer illustration" />
 
 </td>
-<td width="58%" valign="top">
+<td width="60%" valign="top">
 
-I help teams and businesses ship **reliable web products**—the kind people actually use every day. I explain work in plain language so stakeholders always know what they are getting.
+👋 **About me**
 
-**What you can expect**
+I help businesses turn ideas into **powerful digital solutions**. I build secure, scalable, and user-friendly web applications using modern technologies. I care about clean code, smart systems, and real impact.
 
-- **Build complete solutions** — one person accountable from database to screen, fewer handoffs.
-- **Focus on real business problems** — features that save time, reduce errors, or grow revenue.
-- **Full-stack development** — modern .NET backends and polished frontends working together.
-- **AI & automation integration** — practical automation where it removes manual work.
+| | |
+| --- | --- |
+| 🎯 **Problem solver** | Turning vague requirements into clear, buildable scope. |
+| 💡 **Quick learner** | Adopts new tools when they genuinely improve delivery. |
+| 🤝 **Team player** | Works closely with stakeholders and other engineers. |
+| 🏁 **Goal oriented** | Ships outcomes, not endless rework. |
 
 </td>
 </tr>
@@ -54,36 +81,34 @@ I help teams and businesses ship **reliable web products**—the kind people act
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
 **Web applications**  
-Websites and internal tools tailored to how your team works—not generic templates.
+Custom sites and internal apps aligned with real workflows.
 
 </td>
-<td width="34%" valign="top">
+<td width="20%" valign="top">
 
 **Admin dashboards**  
-Operational views, reports, and controls so managers see what matters at a glance.
+Operational visibility: approvals, metrics, and day-to-day controls.
 
 </td>
-<td width="33%" valign="top">
+<td width="20%" valign="top">
 
 **Secure systems**  
-Authentication, roles, and sensible safeguards so data stays protected.
+Authentication, roles, and safeguards matched to your risk profile.
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="20%" valign="top">
 
 **Payment integration**  
-Checkout flows that feel trustworthy—wired to providers your finance team prefers.
+Checkout flows wired to trusted providers.
 
 </td>
-<td valign="top">
+<td width="20%" valign="top">
 
-**AI solutions**  
-Smart quoting, routing, and assisted workflows where AI improves outcomes—not novelty.
+**AI & automation**  
+Practical assistants and workflows where they remove manual effort.
 
 </td>
 </tr>
@@ -91,10 +116,10 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 
 ---
 
-## Projects
+## Featured projects
 
 <div align="center">
-  <img src="./assets/projects.png" width="92%" alt="Featured projects preview" />
+  <img src="./assets/projects.png" width="96%" alt="Featured projects — SaaS-style preview" />
 </div>
 
 <br />
@@ -103,22 +128,22 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 <tr>
 <td width="50%" valign="top">
 
-### AI Quotation System (SaaS)
+### 🤖 AI Quotation System <sub>`SaaS`</sub>
 
-- Reads requirements and applies **consistent pricing rules**.
-- **Admin panel** to tune products, margins, and approvals.
-- Designed as a **subscription-ready** workflow.
+- AI-assisted quoting with **dynamic pricing** and configurable rules.
+- **Admin panel** for products, margins, and approvals.
+- Designed as a repeatable **subscription-friendly** workflow.
 
-<sub>.NET · Blazor · SQL Server</sub>
+<sub>.NET 8 · Blazor · SQL Server</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Food Ordering System
+### 🍔 Food Ordering System
 
-- **Online ordering** with menus and cart flows built for real venues.
-- **Secure checkout** and order tracking for staff and customers.
-- **Admin tools** for menus, pricing, and daily operations.
+- **Online ordering** with menus built for busy venues.
+- **Secure checkout** and tools staff rely on during service.
+- **Admin dashboard** for pricing, catalog, and operations.
 
 <sub>ASP.NET Core · SQL Server</sub>
 
@@ -127,22 +152,22 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 <tr>
 <td width="50%" valign="top">
 
-### Clinic System
+### 📅 Clinic Appointment System
 
 - **Appointment booking** for patients and clinicians.
-- **Role-based access** so front desk, doctors, and admins see the right data.
-- Scheduling views that reduce double-booking and confusion.
+- **Role-based access** across front desk, doctors, and admins.
+- Scheduling focused on clarity and fewer conflicts.
 
 <sub>.NET · Blazor · SQL Server</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### Warehouse System
+### 📦 Warehouse System
 
-- **Inventory and dispatch** with traceable stock movement.
-- **Order management** aligned to how goods actually leave the building.
-- Reporting that supports day-to-day operations, not spreadsheet chaos.
+- **Inventory and dispatch** with traceable movement.
+- **Order management** aligned with real fulfilment flows.
+- Reporting that supports operations—not fragile spreadsheets.
 
 <sub>.NET · SQL Server</sub>
 
@@ -156,24 +181,38 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 
 <table>
 <tr>
-<td width="28%" valign="top"><strong>Full Stack Developer</strong><br /><sub>Group One Security</sub></td>
-<td width="72%" valign="top">
+<td width="30%" valign="top">
+
+**Full Stack Developer**  
+<sub>**Group One Security** · *2024 — 2025*</sub>
+
+</td>
+<td width="70%" valign="top">
+
 <ul>
-<li>Delivered secure web applications with clear permission models.</li>
-<li>Built admin dashboards that made day-to-day security operations faster.</li>
-<li>Tuned performance where it impacted real user tasks.</li>
+<li>Built secure web applications with understandable permission models.</li>
+<li>Delivered admin dashboards that shortened everyday operational tasks.</li>
+<li>Improved performance where it impacted real users.</li>
 </ul>
+
 </td>
 </tr>
 <tr><td colspan="2"><hr /></td></tr>
 <tr>
-<td width="28%" valign="top"><strong>Full Stack Developer</strong><br /><sub>Technare</sub></td>
-<td width="72%" valign="top">
+<td width="30%" valign="top">
+
+**Full Stack Developer**  
+<sub>**Technare.com** · *2022 — Present*</sub>
+
+</td>
+<td width="70%" valign="top">
+
 <ul>
-<li>Shipped multiple client-facing sites and internal tools.</li>
-<li>Implemented APIs and UIs so features stayed consistent end-to-end.</li>
-<li>Focused on outcomes: stable releases and business-ready delivery.</li>
+<li>Shipped multiple client sites and supporting internal tools.</li>
+<li>Kept APIs and UIs aligned so releases stayed predictable.</li>
+<li>Partnered with stakeholders who need clarity, not jargon.</li>
 </ul>
+
 </td>
 </tr>
 </table>
@@ -184,22 +223,28 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rajatamoor&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=rajatamoor&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
 
-<img src="https://streak-stats.demolab.com/?user=rajatamoor&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajatamoor&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+
+<img height="165" src="https://streak-stats.demolab.com/?user=rajatamoor&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=rajatamoor&theme=tokyo-night&hide_border=true&area=true" width="98%" alt="Contribution activity graph" />
 
 </div>
 
 ---
 
-## Contact
+## Let's connect
 
 <table>
 <tr>
-<td align="center" width="25%"><strong>Email</strong><br /><a href="mailto:tamoorazam2003@gmail.com">tamoorazam2003@gmail.com</a></td>
-<td align="center" width="25%"><strong>LinkedIn</strong><br /><a href="https://linkedin.com/in/tamoor-azam">linkedin.com/in/tamoor-azam</a></td>
-<td align="center" width="25%"><strong>GitHub</strong><br /><a href="https://github.com/rajatamoor">github.com/rajatamoor</a></td>
-<td align="center" width="25%"><strong>Upwork</strong><br /><a href="https://www.upwork.com/nx/search/talent/?q=Tamoor%20Azam">Find me on Upwork</a></td>
+<td align="center" width="25%"><strong>Email</strong><br /><sub>I reply within 24 hours when possible.</sub><br /><br /><a href="mailto:tamoorazam2003@gmail.com">tamoorazam2003@gmail.com</a></td>
+<td align="center" width="25%"><strong>LinkedIn</strong><br /><sub>Professional updates & messages.</sub><br /><br /><a href="https://www.linkedin.com/in/raja-tamoor-25b842262/">linkedin.com/in/raja-tamoor-25b842262</a></td>
+<td align="center" width="25%"><strong>GitHub</strong><br /><sub>Code & open-source activity.</sub><br /><br /><a href="https://github.com/rajatamoor">github.com/rajatamoor</a></td>
+<td align="center" width="25%"><strong>Upwork</strong><br /><sub>Hire for freelance engagements.</sub><br /><br /><a href="https://www.upwork.com/freelancers/~01b2d75ae98acbda8d?viewMode=1">Upwork profile</a></td>
 </tr>
 </table>
 
@@ -207,10 +252,14 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 
 <div align="center">
 
-**I build solutions that help businesses grow**
+### Let's build something **great** together!
+
+**I build solutions that help businesses grow.**
+
+<sub>Thanks for visiting my profile!</sub>
 
 <br />
 
-<img src="./assets/footer.png" width="100%" alt="Footer" />
+<img src="./assets/footer.png" width="100%" alt="Footer wave" />
 
 </div>
