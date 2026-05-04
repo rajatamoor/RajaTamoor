@@ -1,189 +1,167 @@
-<!-- 🔥 PREMIUM GITHUB PROFILE README — TAMOOR AZAM -->
-
-<div align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:ed4c9c,100:2d8de0&text=Tamoor%20Azam&section=header&textBgColor=000000&fontSize=42&fontColor=ffffff&fontAlignY=36&desc=Full-Stack%20.NET%20Developer%20%7C%20AI%20Solutions%20%7C%20Blazor%20%7C%20Angular%20%7C%20React&descSize=15&descAlign=50&descAlignY=58&animation=twinkling"
-  />
-</div>
-
-<div align="center">
-  <h2>🚀 Building Real-World Software That Solves Business Problems</h2>
-
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=8b5cf6" />
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge&color=ec4899" />
-
-  <br/><br/>
-
-  <img src="https://img.shields.io/badge/Open%20to-Freelance%20%2F%20Remote-10b981?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Speciality-Scalable%20Systems-6366f1?style=for-the-badge"/>
-</div>
-
----
-
-## 👨‍💻 About Me
-
-<img align="right" width="40%" src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png"/>
-
-I’m a **Full-Stack .NET Developer** focused on building **complete business solutions — not just code**.
-
-✔ I design and develop **scalable web applications, SaaS platforms, and automation systems**  
-✔ Strong in **ASP.NET Core, Blazor, REST APIs, and database design**  
-✔ Experienced in **AI-powered features & workflow automation**  
-✔ Deliver **end-to-end systems (Frontend + Backend + Database + Deployment)**  
-
-💡 My goal:  
-> Build software that actually **solves real problems and generates value**
-
----
-
-## ⚡ What Makes Me Different
-
-- 🧠 I think like a **solution architect**, not just a coder  
-- 🔐 Focus on **secure + scalable backend systems**  
-- ⚙️ Experience with **real business platforms (admin panels, automation, dashboards)**  
-- 🤖 Integrating **AI & automation into modern apps**  
-- 🚀 Fast execution with **clean, maintainable architecture**
-
----
-
-## 🛠 Tech Stack
-
-### 🔹 Backend
-- .NET 8 / ASP.NET Core
-- C#, Entity Framework Core
-- REST APIs, Identity, LINQ
-- Clean Architecture
-
-### 🔹 Frontend
-- Blazor (Server + WASM)
-- Angular / React
-- HTML, CSS, JavaScript, Tailwind
-
-### 🔹 Database
-- SQL Server
-- MySQL / SQLite
-
-### 🔹 Tools
-- Git / GitHub
-- Postman / Swagger
-- n8n (Automation)
-- Visual Studio / VS Code
-
-### 🔹 Hybrid Apps
-- .NET MAUI (Android + Windows)
-
----
-
-## 🚀 Featured Projects
-
-### 🤖 AI Quotation System (SaaS)
-> Smart system that generates quotes automatically
-
-- AI-based **email requirement extraction**
-- Dynamic **pricing engine (GST, margins, logic)**
-- Admin panel for full control
-- Built with **.NET 8 + Blazor**
-
----
-
-### 🍔 Online Food Ordering System
-> Complete restaurant management solution
-
-- Dynamic menu & ordering
-- Secure checkout system
-- Role-based admin panel
-- Built with **ASP.NET Core + SQL Server**
-
----
-
-### 🏥 Clinic Appointment System
-- Patient / Doctor / Admin roles
-- Scheduling & booking system
-- Clean architecture implementation
-
----
-
-### 📦 Warehouse & Dispatch System
-- Inventory tracking
-- Order management
-- Operational workflow automation
-
----
-
-## 💼 Experience
-
-**Full Stack Developer — Group One Security (2024–2025)**  
-- Built secure platforms using **ASP.NET Core & Blazor**
-- Developed **admin dashboards & automation workflows**
-- Optimized database performance
-
-**Full Stack Developer — Technare (2022–Present)**  
-- Delivered multiple **client websites & systems**
-- Built **REST APIs + responsive UIs**
-- Implemented **secure role-based systems**
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
-</div>
-
-<div align="center">
-  <img width="100%" src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
-</div>
-
----
-
-## 🤝 Let's Connect
+<!-- 🔥 TAMOOR AZAM — MODERN CLEAN README -->
 
 <div align="center">
 
-<a href="https://github.com/YOUR_USERNAME">
-<img width="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"/>
-</a>
+<img src="./assets/hero.png" width="100%" />
 
-<a href="https://linkedin.com/">
-<img width="60" src="https://cdn.simpleicons.org/linkedin/0A66C2"/>
-</a>
+# 👋 Hi, I'm Tamoor Azam
 
-<a href="mailto:tamoorazam2003@gmail.com">
-<img width="60" src="https://cdn.simpleicons.org/gmail/EA4335"/>
-</a>
+### 💼 Full-Stack .NET Developer  
+### 🚀 I build complete software solutions for businesses
 
-<a href="https://www.upwork.com/">
-<img width="60" src="https://cdn.simpleicons.org/upwork/6fda44"/>
-</a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Segoe+UI&size=22&duration=3000&pause=800&center=true&vCenter=true&width=700&lines=Building+Scalable+Web+Applications;Turning+Ideas+into+Real+Products;AI+%2B+Automation+Solutions;Frontend+%2B+Backend+%2B+Database" />
 
 </div>
 
 ---
 
-## 🔥 Vision
+# 🧠 About Me
+
+<div align="center">
+<img src="./assets/about.png" width="300"/>
+</div>
+
+I am a **Software Engineer** who focuses on building **complete solutions**, not just writing code.
+
+✔ I help businesses turn ideas into real applications  
+✔ I build systems that are **fast, secure, and scalable**  
+✔ I work on both **frontend and backend**  
+✔ I also integrate **AI and automation** where needed  
+
+💡 Simple mindset:  
+> Build software that **solves real problems and saves time**
+
+---
+
+# ⚡ What I Do (Simple Explanation)
+
+Even if you're not technical 👇
+
+- 🖥️ Build websites and web applications  
+- 📊 Create admin dashboards for business control  
+- 🔐 Secure login systems (user roles, permissions)  
+- 💳 Payment systems (PayPal, Stripe)  
+- 🤖 AI-based features (automation, smart systems)  
+- 📱 Apps for Windows & Android  
+
+---
+
+# 🛠 My Skills
+
+### 🧩 Backend (Server Side)
+- .NET 8 / ASP.NET Core  
+- C#  
+- REST APIs  
+
+### 🎨 Frontend (User Interface)
+- Blazor  
+- Angular / React  
+- HTML, CSS, JavaScript  
+
+### 🗄 Database
+- SQL Server  
+- MySQL  
+- SQLite  
+
+### ⚙ Tools
+- Git & GitHub  
+- Visual Studio  
+- Postman / Swagger  
+
+---
+
+# 🚀 My Projects
+
+<div align="center">
+<img src="./assets/projects.png" width="80%"/>
+</div>
+
+## 🤖 AI Quotation System (SaaS)
+
+A smart system that automatically generates price quotes.
+
+✔ Reads client requirements  
+✔ Applies pricing logic automatically  
+✔ Admin panel to control everything  
+✔ Built using **.NET + Blazor**
+
+---
+
+## 🍔 Food Ordering System
+
+✔ Online ordering system  
+✔ Admin dashboard  
+✔ Secure checkout  
+✔ Built for real restaurant use  
+
+---
+
+## 🏥 Clinic Appointment System
+
+✔ Patient & doctor system  
+✔ Booking & scheduling  
+✔ Role-based access  
+
+---
+
+## 📦 Warehouse System
+
+✔ Inventory tracking  
+✔ Order management  
+✔ Business workflow automation  
+
+---
+
+# 💼 Experience
+
+### 🏢 Full Stack Developer — Group One Security
+- Built secure web applications  
+- Created admin dashboards  
+- Improved system performance  
+
+### 🌐 Full Stack Developer — Technare
+- Developed multiple client websites  
+- Built APIs and user interfaces  
+- Delivered real business solutions  
+
+---
+
+# 📊 GitHub Activity
 
 <div align="center">
 
-I don’t just build apps —  
-I build **scalable systems that help businesses grow** 🚀
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true"/>
+
+</div>
+
+---
+
+# 🤝 Contact Me
+
+<div align="center">
+
+<a href="mailto:tamoorazam2003@gmail.com">📧 Email</a> • 
+<a href="https://linkedin.com/">💼 LinkedIn</a> • 
+<a href="https://github.com/YOUR_USERNAME">💻 GitHub</a> • 
+<a href="https://www.upwork.com/">💰 Upwork</a>
+
+</div>
+
+---
+
+# 🚀 My Goal
+
+<div align="center">
+
+I don’t just build software...  
+I build **solutions that help businesses grow** 🚀
 
 </div>
 
 ---
 
 <div align="center">
-  <img
-    width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:2d8de0,100:0f172a&section=footer&text=Let’s%20Build%20Something%20Great&fontSize=28&fontColor=fff&animation=scaleIn"
-  />
+<img src="./assets/footer.png" width="100%"/>
 </div>
