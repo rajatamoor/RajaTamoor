@@ -1,0 +1,249 @@
+/**
+ * Portfolio motion layer — Tamoor Azam
+ * Keeps transforms/keyframes separate from structural styles (styles.css).
+ */
+
+/* Respect user preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .js-reveal,
+  .js-reveal .js-reveal-child {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+  }
+}
+
+/* -------------------------------------------------------------------------
+   Animated mesh / ambient layers
+   ------------------------------------------------------------------------- */
+@keyframes ambient-drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.55;
+  }
+  50% {
+    transform: translate(-3%, 4%) scale(1.08);
+    opacity: 0.75;
+  }
+  100% {
+    transform: translate(2%, -2%) scale(1.03);
+    opacity: 0.6;
+  }
+}
+
+@keyframes ambient-drift-reverse {
+  0% {
+    transform: translate(0, 0) scale(1.05);
+    opacity: 0.45;
+  }
+  50% {
+    transform: translate(4%, -3%) scale(1);
+    opacity: 0.65;
+  }
+  100% {
+    transform: translate(-2%, 3%) scale(1.06);
+    opacity: 0.5;
+  }
+}
+
+.bg-mesh--a {
+  animation: ambient-drift 22s ease-in-out infinite alternate;
+}
+
+.bg-mesh--b {
+  animation: ambient-drift-reverse 28s ease-in-out infinite alternate;
+}
+
+.bg-beam {
+  animation: beam-pulse 14s ease-in-out infinite;
+}
+
+@keyframes beam-pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+    transform: translateX(-5%) scaleY(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: translateX(5%) scaleY(1.08);
+  }
+}
+
+/* Hero headline gradient shimmer */
+@keyframes gradient-shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.hero__name--animated {
+  background-size: 220% auto;
+  animation: gradient-shimmer 10s linear infinite alternate;
+}
+
+/* Floating chips */
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.float-soft {
+  animation: float-soft 4.8s ease-in-out infinite;
+}
+
+.float-soft--delay-1 {
+  animation-delay: 0.7s;
+}
+
+.float-soft--delay-2 {
+  animation-delay: 1.4s;
+}
+
+.float-soft--delay-3 {
+  animation-delay: 2.1s;
+}
+
+.hero-visual__orbit.float-soft {
+  animation-duration: 5.5s;
+}
+
+/* Stats bar entrance */
+@keyframes stats-rise {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.97);
+    filter: blur(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+.stats-bar.is-visible {
+  animation: stats-rise 0.95s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Icon pulse on social */
+@keyframes icon-ring {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(124, 92, 255, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(124, 92, 255, 0);
+  }
+}
+
+.social-btn:focus-visible {
+  animation: icon-ring 2s ease infinite;
+}
+
+/* -------------------------------------------------------------------------
+   Scroll reveal (IntersectionObserver toggles .is-visible)
+   ------------------------------------------------------------------------- */
+.js-reveal {
+  opacity: 0;
+  transform: translateY(42px);
+  filter: blur(10px);
+  transition:
+    opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.85s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.85s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.js-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+.js-reveal .js-reveal-child {
+  opacity: 0;
+  transform: translateY(26px);
+  transition:
+    opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.js-reveal.is-visible .js-reveal-child:nth-child(1) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.06s;
+}
+.js-reveal.is-visible .js-reveal-child:nth-child(2) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.12s;
+}
+.js-reveal.is-visible .js-reveal-child:nth-child(3) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.18s;
+}
+.js-reveal.is-visible .js-reveal-child:nth-child(4) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.24s;
+}
+.js-reveal.is-visible .js-reveal-child:nth-child(5) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
+}
+.js-reveal.is-visible .js-reveal-child:nth-child(6) {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.36s;
+}
+
+/* GitHub widget grid stagger (.js-github-grid toggled by IO) */
+.js-github-grid:not(.is-visible) .github-widget {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.github-widget {
+  transition:
+    opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.js-github-grid.is-visible .github-widget {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.js-github-grid.is-visible .github-widget:nth-child(1) {
+  transition-delay: 0.06s;
+}
+.js-github-grid.is-visible .github-widget:nth-child(2) {
+  transition-delay: 0.12s;
+}
+.js-github-grid.is-visible .github-widget:nth-child(3) {
+  transition-delay: 0.18s;
+}
+.js-github-grid.is-visible .github-widget:nth-child(4) {
+  transition-delay: 0.26s;
+}

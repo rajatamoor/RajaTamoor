@@ -1,95 +1,103 @@
-# Portfolio Landing UI — Tamoor Azam
+# Tamoor Azam — Premium Portfolio UI
 
-A **dark, glassmorphism-style** single-page portfolio layout inspired by a modern SaaS / developer landing aesthetic. The interface is **rebuilt entirely with semantic HTML and CSS**: typography, spacing, gradients, cards, and decorative workstation motifs are coded—not pasted from a design PNG.
+Client-ready, **dark glassmorphism** developer portfolio landing page. The layout recreates a **Figma-grade SaaS aesthetic** using semantic **HTML5**, layered **CSS**, and a dedicated **motion stylesheet** — **no embedded reference bitmaps**.
 
-**Live repo:** [github.com/rajatamoor/RajaTamoor](https://github.com/rajatamoor/RajaTamoor)
+**Repository:** [github.com/rajatamoor/RajaTamoor](https://github.com/rajatamoor/RajaTamoor)
 
 ---
 
-## What this UI looks like
+## Visual direction
 
-- **Hero:** Split layout with “Open to Freelance / Remote” pill, gradient headline (**Tamoor Azam**), role line, focus tags, circular social actions, and a **CSS-only** workstation scene (monitor “code”, laptop badge, lamp glow, floating tech chips).
-- **Stats strip:** Frosted glass row with Projects / Experience / Clients / Commits.
-- **About:** Illustration panel built from geometry + floating symbols; trait mini-cards.
-- **Services:** Five service tiles with colored accent rails at the bottom.
-- **Featured projects:** Four glass cards with abstract **CSS mock screens**, bullets, and tech stacks.
-- **Experience:** Horizontal-friendly timeline cards with accent borders.
-- **GitHub activity:** Embedded **dynamic widgets** (SVG responses from public APIs—not bitmap exports from Figma).
-- **Contact:** Four glass link cards (Email, LinkedIn, GitHub, Upwork).
-- **Footer:** SVG gradient wave with closing taglines.
+The UI targets a **premium neon–glass** look:
 
-Responsive breakpoints adapt grids from multi-column desktop layouts to stacked mobile columns.
+- **Background:** Deep navy canvas (`#0b0f1a`) with animated gradient meshes and soft beam lighting.
+- **Accents:** Electric purple (`#7c5cff`), cyan (`#00d4ff`), and magenta (`#ff4ecd`).
+- **Surfaces:** Frosted panels (`backdrop-filter` blur + translucent fills + hairline borders).
+- **Depth:** Colored glow shadows, inner highlights, and hover lift on interactive cards.
+- **Typography:** [Inter](https://fonts.google.com/specimen/Inter) for a clean product-style hierarchy.
+
+Sections mirror a full portfolio story: **hero → stats → about → services → projects → experience → GitHub → contact → footer wave**.
 
 ---
 
 ## Features
 
-- Semantic HTML5 (`header`, `main`, `section`, `article`, `figure`, `footer`)
-- Accessible patterns: skip link, `aria-labelledby`, descriptive image alt text for widgets
-- **CSS Grid** & **Flexbox** layouts
-- Design tokens via **`styles.css`** `:root` variables
-- No framework dependency (plain HTML/CSS)
-- Lazy-loaded remote GitHub widget images
+| Capability | Details |
+|------------|---------|
+| **Glassmorphism** | Semi-transparent cards, 10–18px blur, subtle borders |
+| **Neon gradients** | Animated headline shimmer; gradient rails & footer wave |
+| **Motion** | Scroll-triggered section reveals, staggered children, floating tech chips |
+| **Counters** | Stats numbers ease-in when the stats strip enters the viewport |
+| **Dashboard mocks** | CSS-only mini UIs (chrome bar, sidebar, widget tiles) per project card |
+| **Timeline** | Dual-column experience blocks with icon markers & connector line |
+| **Widgets** | Live GitHub stats / streak / languages / activity graph via public SVG endpoints |
+| **Accessibility** | Skip link, `aria` labels, `prefers-reduced-motion` disables heavy animation |
+| **Responsive** | Desktop grids collapse to stacked layouts on tablet/mobile |
 
 ---
 
-## Technologies
+## Tech stack
 
-| Area | Stack |
-|------|--------|
-| Structure | HTML5 |
-| Styling | CSS3 (Grid, Flexbox, custom properties, `backdrop-filter`) |
-| Fonts | [Google Fonts — Inter](https://fonts.googleapis.com) |
-| Dynamic badges | GitHub Readme Stats, Streak Stats, Activity Graph (SVG URLs) |
+- **HTML5** — semantic regions (`header`, `main`, `section`, `article`, `figure`, `footer`)
+- **CSS3** — Grid, Flexbox, custom properties, `backdrop-filter`, keyframes
+- **Vanilla JS** (~45 lines) — `IntersectionObserver` for reveals + stat counting (progressive enhancement)
+- **Fonts** — Google Fonts CDN (Inter)
 
 ---
 
-## Folder structure
+## Project structure
 
 ```text
 RajaTamoor/
-├── index.html       # Full page markup (semantic sections)
-├── styles.css       # Theme, layout, components
-├── README.md        # This documentation
-└── assets/          # Optional folder for future media (not required by index.html)
+├── index.html       # Page structure + lightweight enhancement script
+├── styles.css       # Design tokens, layout, components
+├── animations.css   # Keyframes, reveals, ambient motion, stagger timings
+├── README.md        # You are here
+└── assets/          # Optional — placeholder for favicons / future media (unused by default)
 ```
 
-> **`index.html` does not reference raster artwork** under `assets/` so the layout stays faithful to the “recreate in code” requirement. You may add favicons or future imagery here without changing the core approach.
+---
+
+## Getting started
+
+### Open locally
+
+```bash
+git clone https://github.com/rajatamoor/RajaTamoor.git
+cd RajaTamoor
+```
+
+Then either:
+
+- Double-click **`index.html`**, or  
+- Serve statically:
+
+```bash
+python -m http.server 8080
+# Visit http://localhost:8080
+```
+
+### Deploy
+
+Enable **[GitHub Pages](https://pages.github.com/)** on `main` (root). The entry file is **`index.html`**.
 
 ---
 
-## How to run locally
+## Customization checklist
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/rajatamoor/RajaTamoor.git
-   cd RajaTamoor
-   ```
-
-2. Open **`index.html`** in a browser  
-   - Double-click the file, **or**
-   - From the project folder:
-
-     ```bash
-     # Python 3
-     python -m http.server 8080
-     ```
-
-     Then visit `http://localhost:8080`.
-
-**GitHub Pages:** Enable Pages on the repo (e.g. deploy from `main` root) and open `/index.html` or set `index.html` as the default document.
+1. **Palette / glow:** Edit `:root` tokens at the top of `styles.css`.
+2. **Motion intensity:** Tune durations in `animations.css`; respect remains centralized via `prefers-reduced-motion`.
+3. **GitHub widgets:** Replace `rajatamoor` in `index.html` image URLs when you fork.
+4. **Copy & URLs:** Update headings, bullets, and `href` targets inline in `index.html`.
 
 ---
 
-## Customization
+## Browser support
 
-- **Colors / spacing:** Edit `:root` variables at the top of `styles.css`.
-- **Copy & links:** Update text and `href` values in `index.html`.
-- **GitHub widgets:** Replace `rajatamoor` in image URLs if you fork under another username.
+Works best in **recent Chromium, Firefox, and Safari**. `backdrop-filter` degrades gracefully (panels remain readable without blur on older engines).
 
 ---
 
-## License & attribution
+## License
 
-© Tamoor Azam. Use and adapt freely for personal branding. Third-party badge/graph endpoints remain subject to their respective maintainers’ terms.
+© Tamoor Azam. Free to adapt for personal branding. Third-party GitHub stats endpoints remain subject to their maintainers’ availability and terms.
