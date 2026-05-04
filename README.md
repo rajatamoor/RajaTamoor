@@ -184,9 +184,9 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api?username=rajatamoor&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
 
-<img src="https://streak-stats.demolab.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img src="https://streak-stats.demolab.com/?user=rajatamoor&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
 </div>
 
@@ -198,8 +198,8 @@ Smart quoting, routing, and assisted workflows where AI improves outcomes—not 
 <tr>
 <td align="center" width="25%"><strong>Email</strong><br /><a href="mailto:tamoorazam2003@gmail.com">tamoorazam2003@gmail.com</a></td>
 <td align="center" width="25%"><strong>LinkedIn</strong><br /><a href="https://linkedin.com/in/tamoor-azam">linkedin.com/in/tamoor-azam</a></td>
-<td align="center" width="25%"><strong>GitHub</strong><br /><a href="https://github.com/YOUR_USERNAME">github.com/YOUR_USERNAME</a></td>
-<td align="center" width="25%"><strong>Upwork</strong><br /><a href="https://www.upwork.com/freelancers/~YOUR_USERNAME">Upwork profile</a></td>
+<td align="center" width="25%"><strong>GitHub</strong><br /><a href="https://github.com/rajatamoor">github.com/rajatamoor</a></td>
+<td align="center" width="25%"><strong>Upwork</strong><br /><a href="https://www.upwork.com/nx/search/talent/?q=Tamoor%20Azam">Find me on Upwork</a></td>
 </tr>
 </table>
 
