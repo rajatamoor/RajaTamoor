@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tamoor Azam — Full-Stack .NET Developer. Scalable web applications, Blazor, ASP.NET Core." />
+  <title>Tamoor Azam | Full-Stack .NET Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-deep: #050810;
+      --bg: #0a0e1a;
+      --bg-elevated: #111827;
+      --card-dark: rgba(17, 24, 39, 0.72);
+      --card-light: rgba(226, 232, 240, 0.08);
+      --border: rgba(148, 163, 184, 0.12);
+      --border-glow: rgba(168, 85, 247, 0.35);
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #c084fc;
+      --accent-bright: #e879f9;
+      --blue: #818cf8;
+      --cyan: #22d3ee;
+      --radius: 16px;
+      --radius-sm: 12px;
+      --shadow-glow: 0 0 60px rgba(139, 92, 246, 0.15);
+      --font: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg-deep);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+      background-image:
+        radial-gradient(ellipse 120% 80% at 50% -30%, rgba(99, 102, 241, 0.22), transparent),
+        radial-gradient(ellipse 70% 50% at 100% 50%, rgba(192, 132, 252, 0.08), transparent),
+        radial-gradient(ellipse 60% 40% at 0% 80%, rgba(34, 211, 238, 0.06), transparent);
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 3rem;
+    }
+
+    /* ---------- Badge ---------- */
+    .badge-row {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.45rem 1rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(249, 115, 22, 0.12));
+      border: 1px solid rgba(251, 191, 36, 0.35);
+      color: #fcd34d;
+    }
+
+    /* ---------- Hero image ---------- */
+    .hero-frame {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-glow), 0 24px 48px rgba(0, 0, 0, 0.45);
+      margin-bottom: 2rem;
+    }
+    .hero-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      vertical-align: middle;
+    }
+
+    /* ---------- Hero copy ---------- */
+    .hero-copy {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .hero-copy h1 {
+      margin: 0 0 0.35rem;
+      font-size: clamp(2rem, 5vw, 2.85rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, #e0e7ff 0%, #c4b5fd 40%, #e879f9 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .role {
+      margin: 0 0 0.75rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      text-shadow: 0 0 24px rgba(192, 132, 252, 0.45);
+    }
+    .tagline {
+      margin: 0 0 0.5rem;
+      color: var(--text-muted);
+      font-size: 1rem;
+      max-width: 36rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin: 1rem 0;
+    }
+    .pill {
+      font-size: 0.82rem;
+      padding: 0.35rem 0.65rem;
+      border-radius: 999px;
+      background: rgba(148, 163, 184, 0.1);
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .typing-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: 0.5rem;
+    }
+    .typing-wrap img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* ---------- Glass stats bar ---------- */
+    .glass-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      padding: 1.1rem 1.25rem;
+      border-radius: var(--radius);
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+      margin-bottom: 1.25rem;
+    }
+    .glass-cell {
+      text-align: center;
+    }
+    .glass-cell span.label {
+      display: block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 0.35rem;
+    }
+    .glass-cell strong {
+      font-size: 1.35rem;
+      font-weight: 700;
+      background: linear-gradient(180deg, #fff, #cbd5e1);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .glass-note {
+      text-align: center;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 1.25rem;
+    }
+
+    /* ---------- Social ---------- */
+    .social-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.65rem;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+    }
+    .social-row a img {
+      border-radius: 8px;
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .social-row a:hover img {
+      transform: translateY(-2px);
+      filter: brightness(1.1);
+    }
+
+    /* ---------- Section headings ---------- */
+    h2.section-title {
+      text-align: center;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin: 0 0 1.25rem;
+      position: relative;
+      padding-bottom: 0.65rem;
+    }
+    h2.section-title::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 56px;
+      height: 3px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--blue), var(--accent));
+      box-shadow: 0 0 16px rgba(192, 132, 252, 0.6);
+    }
+
+    /* ---------- About bento ---------- */
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr);
+      gap: 1.25rem;
+      margin-bottom: 2.5rem;
+    }
+    @media (max-width: 840px) {
+      .about-grid { grid-template-columns: 1fr; }
+      .glass-bar { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    .about-visual {
+      border-radius: var(--radius);
+      padding: 1rem;
+      background: linear-gradient(165deg, rgba(226, 232, 240, 0.12) 0%, rgba(148, 163, 184, 0.06) 100%);
+      border: 1px solid rgba(226, 232, 240, 0.14);
+      box-shadow: var(--shadow-glow);
+    }
+    .about-visual img {
+      width: 100%;
+      border-radius: var(--radius-sm);
+      display: block;
+    }
+
+    .about-panel {
+      border-radius: var(--radius);
+      padding: 1.35rem 1.5rem;
+      background: var(--card-dark);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--border);
+    }
+    .about-panel .lead {
+      font-weight: 600;
+      font-size: 1rem;
+      margin: 0 0 0.75rem;
+      color: var(--accent-bright);
+    }
+    .about-panel p.copy {
+      margin: 0 0 1rem;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .trait-grid {
+      display: grid;
+      gap: 0.65rem;
+    }
+    .trait {
+      display: grid;
+      grid-template-columns: 9rem 1fr;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .trait:last-child { border-bottom: none; }
+    .trait strong { color: var(--text); }
+
+    /* ---------- Services ---------- */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .service-card {
+      border-radius: var(--radius-sm);
+      padding: 1rem 1rem 1.15rem;
+      background: linear-gradient(180deg, rgba(30, 41, 59, 0.85), rgba(15, 23, 42, 0.92));
+      border: 1px solid var(--border);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 10%;
+      right: 10%;
+      height: 3px;
+      border-radius: 999px 999px 0 0;
+      background: linear-gradient(90deg, transparent, var(--accent), var(--blue), transparent);
+      opacity: 0.55;
+    }
+    .service-card:nth-child(2)::after { background: linear-gradient(90deg, transparent, #f472b6, var(--cyan), transparent); }
+    .service-card:nth-child(3)::after { background: linear-gradient(90deg, transparent, #34d399, var(--blue), transparent); }
+    .service-card:nth-child(4)::after { background: linear-gradient(90deg, transparent, #fbbf24, #f97316, transparent); }
+    .service-card:nth-child(5)::after { background: linear-gradient(90deg, transparent, #a78bfa, var(--accent-bright), transparent); }
+
+    .service-card h3 {
+      margin: 0 0 0.45rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .service-card p {
+      margin: 0;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.45;
+    }
+
+    /* ---------- Projects ---------- */
+    .projects-banner {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 1.25rem;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    }
+    .projects-banner img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    @media (max-width: 720px) {
+      .project-grid { grid-template-columns: 1fr; }
+    }
+
+    .project-card {
+      border-radius: var(--radius-sm);
+      padding: 1.15rem 1.25rem;
+      background: rgba(15, 23, 42, 0.92);
+      border: 1px solid rgba(139, 92, 246, 0.22);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    }
+    .project-card h3 {
+      margin: 0 0 0.65rem;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .project-card code {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 6px;
+      background: rgba(168, 85, 247, 0.2);
+      color: var(--accent-bright);
+      font-family: ui-monospace, monospace;
+    }
+    .project-card ul {
+      margin: 0 0 0.65rem;
+      padding-left: 1.1rem;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    .project-card li { margin-bottom: 0.35rem; }
+    .project-card .stack {
+      font-size: 0.78rem;
+      color: var(--cyan);
+      opacity: 0.95;
+    }
+
+    /* ---------- Experience ---------- */
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    .exp-card {
+      display: grid;
+      grid-template-columns: minmax(0, 240px) 1fr;
+      gap: 1.25rem;
+      padding: 1.25rem 1.35rem;
+      border-radius: var(--radius-sm);
+      background: rgba(17, 24, 39, 0.55);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+    }
+    @media (max-width: 640px) {
+      .exp-card { grid-template-columns: 1fr; }
+    }
+    .exp-meta h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+    }
+    .exp-meta .co {
+      font-size: 0.88rem;
+      color: var(--blue);
+      font-weight: 600;
+    }
+    .exp-meta .when {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .exp-card ul {
+      margin: 0;
+      padding-left: 1.1rem;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+
+    /* ---------- GitHub widgets ---------- */
+    .gh-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      margin-bottom: 0.75rem;
+    }
+    .gh-row img { border-radius: var(--radius-sm); }
+    .gh-graph {
+      text-align: center;
+    }
+    .gh-graph img {
+      max-width: 100%;
+      border-radius: var(--radius-sm);
+    }
+
+    /* ---------- Contact ---------- */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+    }
+    @media (max-width: 900px) {
+      .contact-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .contact-grid { grid-template-columns: 1fr; }
+    }
+    .contact-card {
+      text-align: center;
+      padding: 1.15rem;
+      border-radius: var(--radius-sm);
+      background: rgba(30, 27, 75, 0.35);
+      border: 1px solid rgba(129, 140, 248, 0.25);
+    }
+    .contact-card strong {
+      display: block;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      margin-bottom: 0.35rem;
+    }
+    .contact-card .hint {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      margin-bottom: 0.65rem;
+    }
+    .contact-card a {
+      color: var(--cyan);
+      text-decoration: none;
+      font-size: 0.84rem;
+      word-break: break-word;
+    }
+    .contact-card a:hover {
+      text-decoration: underline;
+      color: var(--accent-bright);
+    }
+
+    /* ---------- Footer ---------- */
+    .footer-cta {
+      text-align: center;
+      padding: 2rem 1rem 0;
+    }
+    .footer-cta h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .gradient-word {
+      background: linear-gradient(135deg, var(--blue), var(--accent), var(--accent-bright));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .footer-cta .line2 {
+      margin: 0 0 0.35rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .footer-cta .thanks {
+      margin: 0 0 1.25rem;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    .footer-img {
+      border-radius: var(--radius);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .footer-img img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    hr.sep {
+      border: none;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--border), transparent);
+      margin: 2.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="badge-row">
+      <span class="badge">● Open to Freelance / Remote</span>
+    </div>
+
+    <div class="hero-frame">
+      <img src="./assets/hero.png" width="1600" height="900" alt="Hero — workspace and brand" />
+    </div>
+
+    <div class="hero-copy">
+      <h1>Tamoor Azam</h1>
+      <p class="role">Full-Stack .NET Developer</p>
+      <p class="tagline">Building scalable web applications that solve real-world problems</p>
+      <div class="pills">
+        <span class="pill">🚀 Clean Code</span>
+        <span class="pill">🛡️ Secure</span>
+        <span class="pill">📈 Scalable</span>
+        <span class="pill">⚡ High Performance</span>
+      </div>
+      <div class="typing-wrap">
+        <img
+          src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=19&duration=4800&pause=1600&center=true&vCenter=true&multiline=false&width=820&color=94A3B8&lines=Building+scalable+web+applications+that+solve+real-world+business+problems;.NET+%E2%80%A2+Blazor+%E2%80%A2+ASP.NET+Core+%E2%80%A2+SQL+Server;Secure+systems+with+clear+roles+and+measurable+impact"
+          alt="Animated tagline"
+          width="820"
+          height="50"
+        />
+      </div>
+    </div>
+
+    <div class="glass-bar">
+      <div class="glass-cell"><span class="label">Projects</span><strong>10+</strong></div>
+      <div class="glass-cell"><span class="label">Experience</span><strong>2+ yrs</strong></div>
+      <div class="glass-cell"><span class="label">Clients</span><strong>20+</strong></div>
+      <div class="glass-cell"><span class="label">Activity</span><strong>500+</strong></div>
+    </div>
+    <p class="glass-note"><em>Highlights reflect shipped work and ongoing freelance delivery.</em></p>
+
+    <div class="social-row">
+      <a href="https://github.com/rajatamoor" target="_blank" rel="noopener noreferrer"
+        ><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" height="32" alt="GitHub"
+      /></a>
+      <a href="https://www.linkedin.com/in/raja-tamoor-25b842262/" target="_blank" rel="noopener noreferrer"
+        ><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" height="32" alt="LinkedIn"
+      /></a>
+      <a href="mailto:tamoorazam2003@gmail.com"
+        ><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" height="32" alt="Email"
+      /></a>
+      <a href="https://www.upwork.com/freelancers/~01b2d75ae98acbda8d?viewMode=1" target="_blank" rel="noopener noreferrer"
+        ><img src="https://img.shields.io/badge/Upwork-6FDA44?style=flat&logo=upwork&logoColor=white" height="32" alt="Upwork"
+      /></a>
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">About me</h2>
+    <div class="about-grid">
+      <div class="about-visual">
+        <img src="./assets/about.png" width="640" height="640" alt="Developer illustration" />
+      </div>
+      <div class="about-panel">
+        <p class="lead">👋 About me</p>
+        <p class="copy">
+          I help businesses turn ideas into <strong style="color: #e2e8f0">powerful digital solutions</strong>. I build secure,
+          scalable, and user-friendly web applications using modern technologies. I care about clean code, smart systems, and real
+          impact.
+        </p>
+        <div class="trait-grid">
+          <div class="trait"><span>🎯 <strong>Problem solver</strong></span><span>Turning vague requirements into clear, buildable scope.</span></div>
+          <div class="trait"><span>💡 <strong>Quick learner</strong></span><span>Adopts new tools when they genuinely improve delivery.</span></div>
+          <div class="trait"><span>🤝 <strong>Team player</strong></span><span>Works closely with stakeholders and other engineers.</span></div>
+          <div class="trait"><span>🏁 <strong>Goal oriented</strong></span><span>Ships outcomes, not endless rework.</span></div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">What I do</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Web applications</h3>
+        <p>Custom sites and internal apps aligned with real workflows.</p>
+      </div>
+      <div class="service-card">
+        <h3>Admin dashboards</h3>
+        <p>Operational visibility: approvals, metrics, and day-to-day controls.</p>
+      </div>
+      <div class="service-card">
+        <h3>Secure systems</h3>
+        <p>Authentication, roles, and safeguards matched to your risk profile.</p>
+      </div>
+      <div class="service-card">
+        <h3>Payment integration</h3>
+        <p>Checkout flows wired to trusted providers.</p>
+      </div>
+      <div class="service-card">
+        <h3>AI &amp; automation</h3>
+        <p>Practical assistants and workflows where they remove manual effort.</p>
+      </div>
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">Featured projects</h2>
+    <div class="projects-banner">
+      <img src="./assets/projects.png" width="1200" height="675" alt="Projects preview" />
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <h3>🤖 AI Quotation System <code>SaaS</code></h3>
+        <ul>
+          <li>AI-assisted quoting with <strong style="color: #cbd5e1">dynamic pricing</strong> and configurable rules.</li>
+          <li><strong style="color: #cbd5e1">Admin panel</strong> for products, margins, and approvals.</li>
+          <li>Designed as a repeatable <strong style="color: #cbd5e1">subscription-friendly</strong> workflow.</li>
+        </ul>
+        <p class="stack">.NET 8 · Blazor · SQL Server</p>
+      </article>
+      <article class="project-card">
+        <h3>🍔 Food Ordering System</h3>
+        <ul>
+          <li><strong style="color: #cbd5e1">Online ordering</strong> with menus built for busy venues.</li>
+          <li><strong style="color: #cbd5e1">Secure checkout</strong> and tools staff rely on during service.</li>
+          <li><strong style="color: #cbd5e1">Admin dashboard</strong> for pricing, catalog, and operations.</li>
+        </ul>
+        <p class="stack">ASP.NET Core · SQL Server</p>
+      </article>
+      <article class="project-card">
+        <h3>📅 Clinic Appointment System</h3>
+        <ul>
+          <li><strong style="color: #cbd5e1">Appointment booking</strong> for patients and clinicians.</li>
+          <li><strong style="color: #cbd5e1">Role-based access</strong> across front desk, doctors, and admins.</li>
+          <li>Scheduling focused on clarity and fewer conflicts.</li>
+        </ul>
+        <p class="stack">.NET · Blazor · SQL Server</p>
+      </article>
+      <article class="project-card">
+        <h3>📦 Warehouse System</h3>
+        <ul>
+          <li><strong style="color: #cbd5e1">Inventory and dispatch</strong> with traceable movement.</li>
+          <li><strong style="color: #cbd5e1">Order management</strong> aligned with real fulfilment flows.</li>
+          <li>Reporting that supports operations—not fragile spreadsheets.</li>
+        </ul>
+        <p class="stack">.NET · SQL Server</p>
+      </article>
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="exp-card">
+        <div class="exp-meta">
+          <h3>Full Stack Developer</h3>
+          <div class="co">Group One Security</div>
+          <div class="when">2024 — 2025</div>
+        </div>
+        <div>
+          <ul>
+            <li>Built secure web applications with understandable permission models.</li>
+            <li>Delivered admin dashboards that shortened everyday operational tasks.</li>
+            <li>Improved performance where it impacted real users.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-card">
+        <div class="exp-meta">
+          <h3>Full Stack Developer</h3>
+          <div class="co">Technare.com</div>
+          <div class="when">2022 — Present</div>
+        </div>
+        <div>
+          <ul>
+            <li>Shipped multiple client sites and supporting internal tools.</li>
+            <li>Kept APIs and UIs aligned so releases stayed predictable.</li>
+            <li>Partnered with stakeholders who need clarity, not jargon.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">GitHub activity</h2>
+    <div class="gh-row">
+      <img height="165" src="https://github-readme-stats.vercel.app/api?username=rajatamoor&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
+      <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rajatamoor&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+      <img height="165" src="https://streak-stats.demolab.com/?user=rajatamoor&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+    </div>
+    <div class="gh-graph">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=rajatamoor&theme=tokyo-night&hide_border=true&area=true" width="1100" height="320" alt="Contribution graph" />
+    </div>
+
+    <hr class="sep" />
+
+    <h2 class="section-title">Let's connect</h2>
+    <div class="contact-grid">
+      <div class="contact-card">
+        <strong>Email</strong>
+        <div class="hint">I reply within 24 hours when possible.</div>
+        <a href="mailto:tamoorazam2003@gmail.com">tamoorazam2003@gmail.com</a>
+      </div>
+      <div class="contact-card">
+        <strong>LinkedIn</strong>
+        <div class="hint">Professional updates &amp; messages.</div>
+        <a href="https://www.linkedin.com/in/raja-tamoor-25b842262/">linkedin.com/in/raja-tamoor-25b842262</a>
+      </div>
+      <div class="contact-card">
+        <strong>GitHub</strong>
+        <div class="hint">Code &amp; open-source activity.</div>
+        <a href="https://github.com/rajatamoor">github.com/rajatamoor</a>
+      </div>
+      <div class="contact-card">
+        <strong>Upwork</strong>
+        <div class="hint">Hire for freelance engagements.</div>
+        <a href="https://www.upwork.com/freelancers/~01b2d75ae98acbda8d?viewMode=1">Upwork profile</a>
+      </div>
+    </div>
+
+    <footer class="footer-cta">
+      <h3>Let's build something <span class="gradient-word">great</span> together!</h3>
+      <p class="line2">I build solutions that help businesses grow.</p>
+      <p class="thanks">Thanks for visiting my profile!</p>
+      <div class="footer-img">
+        <img src="./assets/footer.png" width="1600" height="400" alt="Footer wave" />
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

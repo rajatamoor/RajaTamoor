@@ -1,5 +1,9 @@
 <!-- Tamoor Azam — GitHub profile README (HTML layout, GitHub-flavored) -->
 
+**Styled landing page (colors & layout like the mockup):** open [`profile.html`](./profile.html) locally or enable [GitHub Pages](https://pages.github.com/) on this repo and visit `/profile.html`.
+
+<br />
+
 <!-- ========== OPEN TO WORK ========== -->
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20to-Freelance%20%2F%20Remote-1E1E2E?style=for-the-badge&logo=briefcase&logoColor=F59E0B&labelColor=11111b" alt="Open to freelance and remote" />
