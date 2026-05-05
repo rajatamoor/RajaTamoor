@@ -1,103 +1,137 @@
-# Tamoor Azam — Premium Portfolio UI
+<!-- Animated Header -->
+<h1 align="center">Hi 👋, I'm Raja Tamoor</h1>
+<h3 align="center">🚀 Full Stack .NET Developer | AI & Automation Enthusiast</h3>
 
-Client-ready, **dark glassmorphism** developer portfolio landing page. The layout recreates a **Figma-grade SaaS aesthetic** using semantic **HTML5**, layered **CSS**, and a dedicated **motion stylesheet** — **no embedded reference bitmaps**.
-
-**Repository:** [github.com/rajatamoor/RajaTamoor](https://github.com/rajatamoor/RajaTamoor)
-
----
-
-## Visual direction
-
-The UI targets a **premium neon–glass** look:
-
-- **Background:** Deep navy canvas (`#0b0f1a`) with animated gradient meshes and soft beam lighting.
-- **Accents:** Electric purple (`#7c5cff`), cyan (`#00d4ff`), and magenta (`#ff4ecd`).
-- **Surfaces:** Frosted panels (`backdrop-filter` blur + translucent fills + hairline borders).
-- **Depth:** Colored glow shadows, inner highlights, and hover lift on interactive cards.
-- **Typography:** [Inter](https://fonts.google.com/specimen/Inter) for a clean product-style hierarchy.
-
-Sections mirror a full portfolio story: **hero → stats → about → services → projects → experience → GitHub → contact → footer wave**.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=ASP.NET+Core+Developer;Blazor+Expert;AI+Automation+Builder;REST+API+Specialist;SQL+Server+Developer&center=true&width=500&height=45">
+</p>
 
 ---
 
-## Features
+## 🌟 About Me
 
-| Capability | Details |
-|------------|---------|
-| **Glassmorphism** | Semi-transparent cards, 10–18px blur, subtle borders |
-| **Neon gradients** | Animated headline shimmer; gradient rails & footer wave |
-| **Motion** | Scroll-triggered section reveals, staggered children, floating tech chips |
-| **Counters** | Stats numbers ease-in when the stats strip enters the viewport |
-| **Dashboard mocks** | CSS-only mini UIs (chrome bar, sidebar, widget tiles) per project card |
-| **Timeline** | Dual-column experience blocks with icon markers & connector line |
-| **Widgets** | Live GitHub stats / streak / languages / activity graph via public SVG endpoints |
-| **Accessibility** | Skip link, `aria` labels, `prefers-reduced-motion` disables heavy animation |
-| **Responsive** | Desktop grids collapse to stacked layouts on tablet/mobile |
+💻 Full Stack Developer specializing in **.NET Core, Blazor & SQL Server**  
+🤖 Passionate about **AI automation & real-world problem solving**  
+📈 Focused on building **scalable SaaS & business solutions**  
+🎯 Delivering **value beyond code**
+
+📍 Islamabad, Pakistan  
+📧 tamoorazam2003@gmail.com  
 
 ---
 
-## Tech stack
+## 🧠 Tech Stack
 
-- **HTML5** — semantic regions (`header`, `main`, `section`, `article`, `figure`, `footer`)
-- **CSS3** — Grid, Flexbox, custom properties, `backdrop-filter`, keyframes
-- **Vanilla JS** (~45 lines) — `IntersectionObserver` for reveals + stat counting (progressive enhancement)
-- **Fonts** — Google Fonts CDN (Inter)
+### 👨‍💻 Languages
+![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-FFCA28?style=for-the-badge&logo=javascript&logoColor=black)
 
----
+### ⚙️ Frameworks & Platforms
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=for-the-badge)
+![Blazor](https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge)
+![MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge)
+![Tailwind](https://img.shields.io/badge/Tailwind-38BDF8?style=for-the-badge&logo=tailwindcss)
 
-## Project structure
+### 🗄 Databases
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge)
 
-```text
-RajaTamoor/
-├── index.html       # Page structure + lightweight enhancement script
-├── styles.css       # Design tokens, layout, components
-├── animations.css   # Keyframes, reveals, ambient motion, stagger timings
-├── README.md        # You are here
-└── assets/          # Optional — placeholder for favicons / future media (unused by default)
-```
-
----
-
-## Getting started
-
-### Open locally
-
-```bash
-git clone https://github.com/rajatamoor/RajaTamoor.git
-cd RajaTamoor
-```
-
-Then either:
-
-- Double-click **`index.html`**, or  
-- Serve statically:
-
-```bash
-python -m http.server 8080
-# Visit http://localhost:8080
-```
-
-### Deploy
-
-Enable **[GitHub Pages](https://pages.github.com/)** on `main` (root). The entry file is **`index.html`**.
+### 🛠 Tools
+Git • Swagger • Postman • Visual Studio • VS Code • n8n • Anaconda
 
 ---
 
-## Customization checklist
+## 💼 Professional Experience
 
-1. **Palette / glow:** Edit `:root` tokens at the top of `styles.css`.
-2. **Motion intensity:** Tune durations in `animations.css`; respect remains centralized via `prefers-reduced-motion`.
-3. **GitHub widgets:** Replace `rajatamoor` in `index.html` image URLs when you fork.
-4. **Copy & URLs:** Update headings, bullets, and `href` targets inline in `index.html`.
+### Full Stack Developer — Remote (2024–2025)
+• Built secure ASP.NET Core & Blazor applications  
+• Created admin dashboards & automated workflows  
+• Optimized SQL databases and API performance  
+• Used Git for collaboration and code quality  
+
+### Full Stack Web Developer — Remote (2022–Present)
+• Developed business websites & web apps  
+• Built REST APIs & role-based systems  
+• Delivered multiple client projects successfully  
 
 ---
 
-## Browser support
+## 🚀 Featured Projects
 
-Works best in **recent Chromium, Firefox, and Safari**. `backdrop-filter` degrades gracefully (panels remain readable without blur on older engines).
+### 🤖 AI Quotation System (SaaS)
+Automated quote generation platform.
+
+**Highlights**
+- AI email requirement extraction  
+- Dynamic pricing engine (GST + margins)  
+- Admin pricing dashboard  
+- Real-time quote preview  
+
+**Tech:** ASP.NET Core 8 • Blazor • EF Core • SQL Server
 
 ---
 
-## License
+### 🍔 Online Food Ordering System
+Full restaurant management solution.
 
-© Tamoor Azam. Free to adapt for personal branding. Third-party GitHub stats endpoints remain subject to their maintainers’ availability and terms.
+**Features**
+- Dynamic menu & secure checkout  
+- Role-based admin panel  
+- Order & sales management  
+
+---
+
+### 🏥 Other Systems
+• Warehouse & Dispatch Management  
+• Clinic Appointment Management  
+
+---
+
+## 🎓 Education
+**BS Software Engineering (2022–2026)**  
+International Islamic University Islamabad  
+
+---
+
+## 📜 Certification
+**Huawei AI Fundamentals (HCCDA-AI)**  
+Machine learning, data processing & AI applications
+
+---
+
+## 💡 Core Skills
+
+✔ REST APIs & MVC Architecture  
+✔ Dependency Injection & LINQ  
+✔ Cross-platform apps (.NET MAUI)  
+✔ AI & Automation Solutions  
+✔ Agile & Scrum
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" height="165">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" height="165">
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="mailto:tamoorazam2003@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
+
+---
+
+<p align="center">
+✨ Always open to freelance, remote jobs & collaborations ✨
+</p>
