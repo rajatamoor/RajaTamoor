@@ -28,7 +28,7 @@
 
 <p align="center">
 
-<a href="https://www.linkedin.com/in/raja-tamoor-25b842262/" target="_blank">
+<a href="https://www.linkedin.com/raja-tamoor-25b842262/" target="_blank">
   <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="48"
   style="background-color:white;padding:8px;border-radius:10px;"/>
 </a>
