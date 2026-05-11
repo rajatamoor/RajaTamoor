@@ -4,7 +4,13 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=End-to-End+Solution+Provider;I+Understand+Your+Idea;I+Solve+Real+Business+Problems;ASP.NET+Core+%7C+Blazor+%7C+SQL+Server&center=true&width=650&height=45">
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-Core-512BD4?style=for-the-badge&logo=dotnet" />
+  <img src="https://img.shields.io/badge/ASP.NET-Core-5C2D91?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge" />
+</p>
 ---
 
 ## 🌟 About Me
@@ -70,13 +76,7 @@ Azure • Git • GitHub • CI/CD • Deployment • Hosting
 ### 🔌 Tools & Practices
 Visual Studio • VS Code • Swagger • Postman • Repository Pattern • Dependency Injection • SOLID Principles
 
-<p align="center">
-  <img src="https://img.shields.io/badge/.NET-Core-512BD4?style=for-the-badge&logo=dotnet" />
-  <img src="https://img.shields.io/badge/ASP.NET-Core-5C2D91?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge" />
-</p>
+
 
 
 <p align="center">
