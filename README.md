@@ -62,11 +62,9 @@
 🏗️ Backend (.NET Development)
 <p> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/ASP.NET%20Core-5C2D91?style=for-the-badge"/> <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge"/> <img src="https://img.shields.io/badge/Web%20API-0078D4?style=for-the-badge"/> <img src="https://img.shields.io/badge/MVC-FF6F00?style=for-the-badge"/> </p>
 
-### 🏗️ Backend (.NET Core)
-ASP.NET Core • Web API • MVC • Blazor • C# • Clean Architecture • REST APIs • JWT Authentication
 
 ### 🗄️ Database
-SQL Server • MySQL • Entity Framework Core • LINQ • Stored Procedures • Query Optimization
+<p> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Entity%20Framework-6DB33F?style=for-the-badge"/> <img src="https://img.shields.io/badge/LINQ-1E90FF?style=for-the-badge"/> </p>
 
 ### 🌐 Frontend
 Blazor Server • Blazor WebAssembly • HTML5 • CSS3 • JavaScript • Bootstrap
