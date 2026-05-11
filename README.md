@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge" />
 </p>
----
 
 ## 🌟 About Me
 
