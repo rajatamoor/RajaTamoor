@@ -89,44 +89,6 @@
 <img src="https://cdn.simpleicons.org/postman/FF6C37" height="40"/>
 </p>
 
----
-
-## 💼 Experience
-
-**Full Stack Developer — Remote (2024–2025)**  
-• ASP.NET Core & Blazor applications  
-• Admin dashboards & workflow automation  
-• SQL optimization & REST APIs  
-• Git collaboration & code reviews  
-
-**Full Stack Web Developer — Remote (2022–Present)**  
-• Business websites & web apps  
-• REST APIs & role-based systems  
-• Multiple successful client projects  
-
----
-
-## 🚀 Featured Projects
-
-### 🤖 AI Quotation System (SaaS)
-AI-powered quote automation with dynamic pricing and admin dashboard.
-
-### 🍔 Online Food Ordering System
-Restaurant management system with admin panel & secure checkout.
-
-### 🏥 Business Systems
-Warehouse • Dispatch • Clinic Appointment Management
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight"/>
-</p>
-
----
 
 <p align="center">
 ✨ Open for Freelance • Remote Jobs • Long-Term Collaboration ✨
