@@ -53,6 +53,22 @@
 ✔ Long-Term Reliable Support  
 
 ---
+## ⚡ Tech Stack
+
+### 🏗️ Backend (.NET Core)
+ASP.NET Core • Web API • MVC • Blazor • C# • Clean Architecture • REST APIs • JWT Authentication
+
+### 🗄️ Database
+SQL Server • MySQL • Entity Framework Core • LINQ • Stored Procedures • Query Optimization
+
+### 🌐 Frontend
+Blazor Server • Blazor WebAssembly • HTML5 • CSS3 • JavaScript • Bootstrap
+
+### ☁️ Cloud & DevOps
+Azure • Git • GitHub • CI/CD • Deployment • Hosting
+
+### 🔌 Tools & Practices
+Visual Studio • VS Code • Swagger • Postman • Repository Pattern • Dependency Injection • SOLID Principles
 
 ## 🧠 Tech Stack
 
