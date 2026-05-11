@@ -67,13 +67,16 @@
 <p> <img src="https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Entity%20Framework-6DB33F?style=for-the-badge"/> <img src="https://img.shields.io/badge/LINQ-1E90FF?style=for-the-badge"/> </p>
 
 ### 🌐 Frontend
-Blazor Server • Blazor WebAssembly • HTML5 • CSS3 • JavaScript • Bootstrap
+<p> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/> </p>
 
 ### ☁️ Cloud & DevOps
-Azure • Git • GitHub • CI/CD • Deployment • Hosting
+<p> <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/CI%2FCD-0A0A0A?style=for-the-badge"/> </p>
 
-### 🔌 Tools & Practices
-Visual Studio • VS Code • Swagger • Postman • Repository Pattern • Dependency Injection • SOLID Principles
+###🔌 APIs & Architecture
+<p> <img src="https://img.shields.io/badge/REST%20API-00A6A6?style=for-the-badge"/> <img src="https://img.shields.io/badge/JWT%20Auth-000000?style=for-the-badge"/> <img src="https://img.shields.io/badge/Clean%20Architecture-FF6F00?style=for-the-badge"/> <img src="https://img.shields.io/badge/Microservices-4B0082?style=for-the-badge"/> </p>
+
+### 🧰 Tools
+<p> <img src="https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white"/> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/> </p>
 
 
 
