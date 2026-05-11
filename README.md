@@ -28,9 +28,8 @@
 
 <p align="center">
 
-<a href="https://www.linkedin.com/raja-tamoor-25b842262/" target="_blank">
-  <img src="https://cdn.simpleicons.org/linkedin/0A66C2" height="48"
-  style="background-color:white;padding:8px;border-radius:10px;"/>
+<a href="https://www.linkedin.com/in/raja-tamoor-25b842262" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="48"/>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 
