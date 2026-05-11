@@ -72,7 +72,7 @@
 ### ☁️ Cloud & DevOps
 <p> <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/> <img src="https://img.shields.io/badge/CI%2FCD-0A0A0A?style=for-the-badge"/> </p>
 
-###🔌 APIs & Architecture
+🔌 APIs & Architecture
 <p> <img src="https://img.shields.io/badge/REST%20API-00A6A6?style=for-the-badge"/> <img src="https://img.shields.io/badge/JWT%20Auth-000000?style=for-the-badge"/> <img src="https://img.shields.io/badge/Clean%20Architecture-FF6F00?style=for-the-badge"/> <img src="https://img.shields.io/badge/Microservices-4B0082?style=for-the-badge"/> </p>
 
 ### 🧰 Tools
