@@ -70,39 +70,12 @@ Azure • Git • GitHub • CI/CD • Deployment • Hosting
 ### 🔌 Tools & Practices
 Visual Studio • VS Code • Swagger • Postman • Repository Pattern • Dependency Injection • SOLID Principles
 
-## 🧠 Tech Stack
-
-### 👨‍💻 Languages
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40"/>
-</p>
-
-### ⚙️ Frameworks & Platforms
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40"/>
-</p>
-
-### 🗄 Databases
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" height="40"/>
-</p>
-
-### 🛠 Tools
-<p>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40"/>
-<img src="https://cdn.simpleicons.org/swagger/85EA2D" height="40"/>
-<img src="https://cdn.simpleicons.org/postman/FF6C37" height="40"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-Core-512BD4?style=for-the-badge&logo=dotnet" />
+  <img src="https://img.shields.io/badge/ASP.NET-Core-5C2D91?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Blazor-512BD4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CSharp-239120?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=for-the-badge" />
 </p>
 
 
